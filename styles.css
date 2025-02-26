@@ -8,7 +8,7 @@
   border: 1px solid black;
   border-radius: 16px;
   width: 375px;
-  height: 650px;
+  height: 640px;
   overflow: hidden;
   margin-top: 0px;
 }
@@ -38,7 +38,7 @@ p {
 body {
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 550;
   font-style: normal;
   text-align: center;
 }
