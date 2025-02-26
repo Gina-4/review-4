@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 16px;
+  width: 375px;
+  height: 600px;
+  overflow: hidden;
+  margin-top: 0px;
+}
+.image {
+  margin-top: 0px;
+}
+h1 {
+  align-items: center;
+}
+p {
+  text-align: center;
+  color: grey;
+  margin: 16px;
+}
+.plan {
+  background-color: hsl(228, 56%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  padding: 16px;
+  margin: 16px;
+  gap: 10px;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+
+.image-icon {
+  margin: 0;
+}
+
+.annual-plan {
+    display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  gap: 8px;
+}
+
+.change-button {
+  text-decoration: underline;
+  cursor: pointer;
+  color: hsl(244, 69%, 51%);
+}
+.payment {
+  color: white;
+  text-align: center;
+  width: 90%;
+  padding: 16px;
+  border-radius: 16px;
+  border: 16px;
+  margin: 16px;
+  background-color: hsl(244, 69%, 51%);
+}
+.order {
+  width: 90%;
+  text-align: center;
+  padding: 16px;
+  border-radius: 16px;
+  border: 16px;
+  margin: 5px;
+  background-color: light grey;
+}
